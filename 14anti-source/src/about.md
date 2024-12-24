@@ -5,11 +5,11 @@
 
  <p xmlns:cc="http://creativecommons.org/ns#" >本文、イラスト、解説等、この本に関する著作権は、<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.ja" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt=""></a>によってすべて放棄されています。</p>
 
-このサイトは[mdBook](https://github.com/rust-lang/mdBook)を使用して生成されており、ホスティングは[Github](https://github.com/kuromedayo/matomo-library)を利用しています。
+このサイトは[mdBook](https://github.com/rust-lang/mdBook)を使用して生成されており、ホスティングには[Github](https://github.com/kuromedayo/matomo-library)を利用しています。
 
 ## 著者
 
-**ホモ・ネーモ(久保一真)**
+**[ホモ・ネーモ(久保一真)](https://note.com/kaduma)**
 
 1991年大阪府生まれ。労働の廃絶を目指しアンチワーク哲学を提唱する在野哲学者。著書に『労働なき世界』『働かない勇気』『シン・ベーシックインカム論』など。
 
@@ -19,7 +19,6 @@
 <a href="https://matomo-shobo.com/" class="fa-solid fa-house" style="font-size:23px"></a>&nbsp;
 <a href="https://x.com/NEMO_YOKAISM" class="fa-brands fa-x-twitter" style="font-size:24px"></a>&nbsp;
 <a href="https://www.youtube.com/channel/UCGVYl0sr85BIGMq-Izf5UBg" class="fa-brands fa-youtube" style="font-size:24px"></a>&nbsp;
-<a href="https://note.com/kaduma"><img src="./note-visual-identity/main/icon.png"></a>
 
 ## 関連リンク
 [全文無料公開中！『14歳からのアンチワーク哲学　なぜ僕らは働きたくないのか？』](https://note.com/kaduma/n/n1ed7230c3ac3)
