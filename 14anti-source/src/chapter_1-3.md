@@ -118,4 +118,4 @@
 
 「労働を撲滅すればいい。殺人が起きるのは労働のせいなんや。ぜんぶ労働が悪い、労働が！」
 
-<img src="https://raw.githubusercontent.com/kuromedayo/matomo-library/refs/heads/main/images/anti14-chapter1.jpg">
+<img src="https://raw.githubusercontent.com/kuromedayo/matomo-library/refs/heads/main/images/14anti-c1.jpg">
