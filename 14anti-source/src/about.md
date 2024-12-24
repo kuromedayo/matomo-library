@@ -1,11 +1,11 @@
+<img src="https://raw.githubusercontent.com/kuromedayo/matomo-library/refs/heads/main/images/14anti-header.jpg">
+
 # このサイトについて
 
 このサイトでは、2024年に[まとも書房](https://matomo-shobo.com/)より出版された「14歳からのアンチワーク哲学」とその解説文をweb上で公開しています。
 
 
  <p xmlns:cc="http://creativecommons.org/ns#" >本文、イラスト、解説等、この本に関する著作権は、<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.ja" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt=""></a>によってすべて放棄されています。</p>
-
-このサイトは[mdBook](https://github.com/rust-lang/mdBook)を使用して生成されており、ホスティングには[Github](https://github.com/kuromedayo/matomo-library)を利用しています。
 
 ## 著者
 
@@ -21,8 +21,8 @@
 <a href="https://www.youtube.com/channel/UCGVYl0sr85BIGMq-Izf5UBg" class="fa-brands fa-youtube" style="font-size:24px"></a>&nbsp;
 
 ## 関連リンク
-[全文無料公開中！『14歳からのアンチワーク哲学　なぜ僕らは働きたくないのか？』](https://note.com/kaduma/n/n1ed7230c3ac3)
-
 [Amazon ペーパーパック](https://www.amazon.co.jp/-/en/%E3%83%9B%E3%83%A2%E3%83%BB%E3%83%8D%E3%83%BC%E3%83%A2/dp/4991353408)
 
-[Amazon kindle](https://www.amazon.co.jp/-/en/%E3%83%9B%E3%83%A2%E3%83%BB%E3%83%8D%E3%83%BC%E3%83%A2-ebook/dp/B0DMV7TM5B)
+[Amazon kindle版](https://www.amazon.co.jp/-/en/%E3%83%9B%E3%83%A2%E3%83%BB%E3%83%8D%E3%83%BC%E3%83%A2-ebook/dp/B0DMV7TM5B)
+
+[全文無料公開中！『14歳からのアンチワーク哲学　なぜ僕らは働きたくないのか？』](https://note.com/kaduma/n/n1ed7230c3ac3)
