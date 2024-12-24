@@ -6,7 +6,7 @@ language = "ja"
 multilingual = true
 
 [build]
-build-dir = "book"
+build-dir = "../anti14-book"
 
 [output.html]
 additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js"]
