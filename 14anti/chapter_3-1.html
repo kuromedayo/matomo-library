@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>無意味な労働の数々 - 14歳からのアンチワーク哲学</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">14歳からのアンチワーク哲学</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/kuromedayo/matomo-library" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="無意味な労働の数々"><a class="header" href="#無意味な労働の数々">無意味な労働の数々</a></h1>
+<p>　さっきニケはなんて言ったっけ。現代の労働は必要ない？　いったいどういう意味だろう？　この社会から労働がなくなれば、家も食べ物も服も生産されないし、ゲームや漫画といった娯楽を楽しむこともできない。どうして「必要ない」なんて言えるだろうか？</p>
+<p>　ニケは労働に不思議な定義を与えていた。「他者より強制される不愉快な営み」だったっけ。たしかに労働には強制や不愉快といった雰囲気がつきまとう。でも、先生に叱られないために渋々掃除当番に取り組むように、強制しなければ誰も必要な労働に取り組もうとは思わない。ならば、強制されることも不愉快であることも仕方ないんじゃないだろうか？　労働は、やっぱり必要なはずだ。</p>
+<p>「・・・必要のない労働なんてあるの？」</p>
+<p>「逆になんで労働が必要やと思ったん？」</p>
+<p>「え？」</p>
+<p>　そりゃあ、必要に決まってるじゃないか。</p>
+<p>「働いたことのある大人やったらみんな知ってるで。世の中は無駄な労働で溢れかえってることをな。ブルシット・ジョブって検索してみたらええわ」</p>
+<p>「ブルシット・・・？」</p>
+<p>「まぁそれはどうでもええ。とにかく、ちょっと考えてみてくれ」</p>
+<p>　ニケはわずかな幕間の時間を終えて、さっきまでの役者じみた語り口に戻っている。</p>
+<p>「たとえば少年と俺が二人きりで無人島に漂着したとしよう」</p>
+<p>「あんまり想像したくない状況だね」</p>
+<p>「で、目の前に二人が一ヶ月生き延びられる分の食糧が置いてあるとしよう。で、穴を掘っては埋める作業を十回早く繰り返した方がそれを総取りできるとしよう」</p>
+<p>「どういうこと？」</p>
+<p>「まぁ聞いてくれや。とにかくそういう状況やねん。なら、俺も少年も必死で穴を掘って埋めようとするよな？」</p>
+<p>「うーん、それなら二人で分け合おうとすると思うけど？」</p>
+<p>「それが賢いわな。でも、どっちにしろそのゲームをやらなあかんとしよう。神様かなにかに強制されてるんや。ほんでゲームに勝ったら相手に分け与えようが、それは勝者の自由や」</p>
+<p>「神様ね・・・」</p>
+<p>「相手が勝っても分けてくれると信じるなら、ゲームを本気でやる必要はないけど・・・」</p>
+<p>「その確証がないなら、とりあえず自分が勝とうとする・・・かな？」</p>
+<p>「せやろ。なら、必死でゲームをやるだけじゃなくて、事前にちょっと練習もするやろうな」</p>
+<p>「そうだね」</p>
+<p>「でも、無駄やろ？」</p>
+<p>「そりゃあ、そんなバカなことをする必要はないね。だって、穴を掘って埋めてもなんの意味もないんだし、ゲームなんて適当にやりすごして食糧を二人で分け合えばいい。そして、余った体力で狩りや農業にチャレンジするか、家をつくるか、脱出用の舟をつくった方がいいね」</p>
+<p>「せやろ。つまり個人にとっては『仕方ない』と思える穴掘りゲームも、俺と少年・・・つまり社会全体としてみれば無駄なんや。ほんで、たとえ話はここまでや。お金をもらうための労働が、穴掘りゲームみたいになってるとしたらどうや？」</p>
+<p>「え？」</p>
+<p>「労働が分け前を奪い合うだけの競争になってるんやとすれば、どう思う？」</p>
+<p>　もしそうなら無駄だ。でも、あまりにも現実と違いすぎてたとえ話になっていない。</p>
+<p>「でも労働って、奪い合いではないよね？　どちらかといえば狩りや農業みたいに、食糧を増やすことに近いんじゃないの？」</p>
+<p>「それが勘違いなんや。労働には二種類あってな、経済活動と政治活動っていうのがある」</p>
+<p>「なにそれ？」</p>
+<p>「経済活動は少年がさっき言ったように食糧をつくる行為も含まれるし、椅子やテーブルをつくる行為もそうや。あとは子どものおむつを替えたり、荷物を運んだり、トラックをメンテナンスしたり・・・人やものの世話、運搬も含まれる。労働と聞いて真っ先に思い浮かぶのは、こういう経済活動やろな」</p>
+<p>「そうだね。逆にそれ以外の労働ってなに？」</p>
+<p>「たとえば・・・あそこでスーツ姿の女性がベビーカーを押した母親に話しかけてるやろ？」</p>
+<p>　話に夢中になって気づかなかったが、さっき視界に入った若い母親に、スーツの女性が話かけていた。</p>
+<p>「うん」</p>
+<p>「内容が聞こえへんからわからんけど、あれはたぶん保険の営業や。『子どものために保険に入りませんか？』っていう営業をかけとる」</p>
+<p>「それがどうかしたの？」</p>
+<p>「営業は、さっきの経済活動に含まれるか？」</p>
+<p>「うーん、ものをつくるわけでもないし、人やものの世話をするわけでもないね」</p>
+<p>「そう。それはつまり『うちの商品を買ってくれ』と働きかけて、富の移動に影響を与えようとする営みなんや」</p>
+<p>「富の移動？」</p>
+<p>「むずかしく言うたけど、要は金を手に入れるための活動や。これをアンチワーク哲学では政治活動って呼ぶねん」</p>
+<p>「ふーん」
+画像</p>
+<p>　政治活動。なんともイメージの湧きにくい言葉だ。ニケにはやっぱりネーミングセンスがない。</p>
+<p>「営業以外に政治活動ってなにがあるの？」</p>
+<p>「少年はＹｏｕＴｕｂｅを観るか？」</p>
+<p>「まぁ人並みには観るけど」</p>
+<p>「広告が出てきてうざいと思うやろ？」</p>
+<p>「まぁそうだね。早く動画を観たいのに、鬱陶しいなぁと思うよ」</p>
+<p>「広告も政治活動や。広告ってのは、『うちの商品を買ってくれ』と働きかける行為やろ。ＹｏｕＴｕｂｅの広告だけではなくて、テレビコマーシャルも、ポストに入ってるチラシも、新聞広告も、街頭の広告も、ぜんぶそうやな」</p>
+<p>「そうだね」</p>
+<p>「さて、さっきの無人島の話と照らし合わせて考えよか。『経済活動』が狩りや農業やとすれば、『政治活動』は穴掘りゲームに夢中になることを意味するわけやな」</p>
+<p>「でもさ、広告や営業は穴掘りゲームみたいにまるっきり無駄ってわけでもないでしょ？　広告を見て素敵な商品の存在に気づくこともあるし」</p>
+<p>「そうか。なら少年はＹｏｕＴｕｂｅの広告を百回見たとして、何回素敵な商品に出会えるやろか？」</p>
+<p>　動画を観ている場面を思い出す。そういえば、いつも広告の内容なんて見ようともせずに、スキップボタンを連打しているっけ。</p>
+<p>「ゼロかな。いや一回か二回くらいは・・・」</p>
+<p>「広告なんかそんなもんやろな。営業も似たようなもんや。俺も昔は営業やってたけど、企業百社に営業電話をかけて、一社契約できれば御の字やったわ」</p>
+<p>「へぇ、そんな仕事をしてたんだね」</p>
+<p>「せや。そんな無意味な仕事をしてたからアンチワーク哲学を思いついたんや」</p>
+<p>「そっか。机上の空論なんだと思ってたよ」</p>
+<p>「あほか。ほんでな、広告も営業も百パーセント悪やとは言わん。ただ、少なければ少ない方がいいことは間違いないやろ？」</p>
+<p>「どういうこと？」</p>
+<p>「たとえば、この社会にテーブルが一個しか存在しないよりは百個存在している方がええよな？」</p>
+<p>「まぁ、その方がみんなにテーブルが行き渡るし、好みに合わせて選ぶこともできるだろうね」</p>
+<p>「そう。だから経済活動が活発になることは基本的にはいいことや。つくりすぎの問題は置いといて」</p>
+<p>「うん」</p>
+<p>「でもな、一つの動画で広告が一本だけ流れるのと、百本流れるのやったらどっちの方がいい？」</p>
+<p>「一本の方がいいね。邪魔だし」</p>
+<p>「せやろ。観る側からしても邪魔やし、広告つくるのも簡単じゃない。プロが手間暇かけてつくってるんや」</p>
+<p>　そう言われれば考えたこともなかった。どれだけの手間暇をかけて、いつも僕がスキップする広告がつくられているのか。</p>
+<p>「他にはこんな状況はどうや。オフィスで仕事をしてたら一日に一回だけ電話営業がかかってくるのと、一日に百回電話営業がかかってくるのとでは？」</p>
+<p>「そりゃあ、少ない方がいいよね。かけられる側は仕事を邪魔されるし、かける側は大変だし」</p>
+<p>「そう。だから政治活動は少ければ少ない方がいい。それだけやないで。政治活動をするためには、そのサポートをする経済活動も必要なんや」</p>
+<p>「どういうこと？」</p>
+<p>「たとえばゴミみたいな広告をつくってる会社があるとしよう」</p>
+<p>　ゴミ。ひどい言い草ではあるけれど、「ゴミ」としか形容しようがない広告はたしかにある。</p>
+<p>「その会社はオフィスビルに入ってるわけや。そのビルを建てる仕事や、掃除する仕事、空調やエレベーターを点検する仕事、そこで使われるパソコンをつくる仕事、電気やガスの設備を整える仕事は経済活動なわけやが、これらは必要か？」</p>
+<p>　言われてみれば・・・</p>
+<p>「最終的に無駄なことに使われてるわけだから、無駄だね」</p>
+<p>「せやろ。ビルを建てるのに、どれだけの鉄やコンクリート、ペンキやネジ、ガラスがつくられて、運ばれてきたか想像できるか？　つまり、無意味に浪費されてる労働は膨大なんや」</p>
+<p>　話の筋は通っている。しかし、そんな簡単にいくものだろうか。さすがに暴論ではないだろうか。</p>
+<p>「でもさ、政治活動があるのも仕方ないんじゃない。会社が存続するためにも利益を出すことは大切だよね？」</p>
+<p>「その通りや。でも、社会全体としてみたときに少ない方がいいことに変わりはない。好きでやってるんでない限りな。だったら、なんとか減らす方法を考えるべきやろ」</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="chapter_3.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="chapter_3-2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="chapter_3.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="chapter_3-2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="assets/fzf.umd.js"></script>
+        <script src="assets/elasticlunr.js"></script>
+
+
+    </div>
+    </body>
+</html>
