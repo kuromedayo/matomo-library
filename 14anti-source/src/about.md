@@ -9,9 +9,9 @@
 
 ## 著者
 
-**[ホモ・ネーモ(久保一真)](https://note.com/kaduma)**
+**ホモ・ネーモ(久保一真)**
 
-1991年大阪府生まれ。労働の廃絶を目指しアンチワーク哲学を提唱する在野哲学者。著書に『労働なき世界』『働かない勇気』『シン・ベーシックインカム論』など。
+1991年大阪府生まれ。労働の廃絶を目指しアンチワーク哲学を提唱する在野哲学者。[note](https://note.com/kaduma)で精力的に執筆活動に取り組んでいる。著書に『労働なき世界』『働かない勇気』『シン・ベーシックインカム論』など。
 
 <!-- Font Awesome CSS -->
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css'>

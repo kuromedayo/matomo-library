@@ -87,7 +87,8 @@
 「むずかしく言うたけど、要は金を手に入れるための活動や。これをアンチワーク哲学では政治活動って呼ぶねん」
 
 「ふーん」
-画像
+
+<img src="https://raw.githubusercontent.com/kuromedayo/matomo-library/refs/heads/main/images/14anti-c3.jpg">
 
 　政治活動。なんともイメージの湧きにくい言葉だ。ニケにはやっぱりネーミングセンスがない。
 
