@@ -1,0 +1,17 @@
+[book]
+title = "14歳からのアンチワーク哲学"
+authors = ["kurome"]
+src = "src"
+language = "ja"
+multilingual = true
+
+[build]
+build-dir = "book"
+
+[output.html]
+additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js"]
+# site-url = "/example-book/"
+git-repository-url = "https://github.com/kuromedayo/matomo-library"
+
+[output.html.fold]
+enable = true
