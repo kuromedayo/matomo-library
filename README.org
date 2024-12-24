@@ -1,4 +1,4 @@
 * まともライブラリー
 まとも書房で出版された本の中で、著作権がフリーなものをweb上で公開しています。
 
-[[https://github.com/rust-lang/mdBook][mdBook]]を使用して生成されており、ホスティングにはGithubを利用しています。
+[[https://github.com/rust-lang/mdBook][mdBook]]を使用して生成されています。
