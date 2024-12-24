@@ -156,7 +156,23 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="この本について"><a class="header" href="#この本について">この本について</a></h1>
+                        <h1 id="このサイトについて"><a class="header" href="#このサイトについて">このサイトについて</a></h1>
+<p>このサイトでは、2024年に<a href="https://matomo-shobo.com/">まとも書房</a>より出版された「14歳からのアンチワーク哲学」とその解説文をweb上で公開しています。</p>
+ <p xmlns:cc="http://creativecommons.org/ns#" >本文、イラスト、解説等、この本に関する著作権は、<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.ja" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt=""></a>によってすべて放棄されています。</p>
+<p>このサイトは<a href="https://github.com/rust-lang/mdBook">mdBook</a>を使用して生成されており、ホスティングは<a href="https://github.com/kuromedayo/matomo-library">Github</a>を利用しています。</p>
+<h2 id="著者"><a class="header" href="#著者">著者</a></h2>
+<p><strong>ホモ・ネーモ(久保一真)</strong></p>
+<p>1991年大阪府生まれ。労働の廃絶を目指しアンチワーク哲学を提唱する在野哲学者。著書に『労働なき世界』『働かない勇気』『シン・ベーシックインカム論』など。</p>
+<!-- Font Awesome CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css'>
+<p><a href="https://matomo-shobo.com/" class="fa-solid fa-house" style="font-size:23px"></a> 
+<a href="https://x.com/NEMO_YOKAISM" class="fa-brands fa-x-twitter" style="font-size:24px"></a> 
+<a href="https://www.youtube.com/channel/UCGVYl0sr85BIGMq-Izf5UBg" class="fa-brands fa-youtube" style="font-size:24px"></a> 
+<a href="https://note.com/kaduma"><img src="./note-visual-identity/main/icon.png"></a></p>
+<h2 id="関連リンク"><a class="header" href="#関連リンク">関連リンク</a></h2>
+<p><a href="https://note.com/kaduma/n/n1ed7230c3ac3">全文無料公開中！『14歳からのアンチワーク哲学　なぜ僕らは働きたくないのか？』</a></p>
+<p><a href="https://www.amazon.co.jp/-/en/%E3%83%9B%E3%83%A2%E3%83%BB%E3%83%8D%E3%83%BC%E3%83%A2/dp/4991353408">Amazon ペーパーパック</a></p>
+<p><a href="https://www.amazon.co.jp/-/en/%E3%83%9B%E3%83%A2%E3%83%BB%E3%83%8D%E3%83%BC%E3%83%A2-ebook/dp/B0DMV7TM5B">Amazon kindle</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="プロローグ"><a class="header" href="#プロローグ">プロローグ</a></h1>
 <blockquote>
 <p>労働によって台無しにされている人々の創造力を解放すると何が生じるかは、誰にもわからない。何でも起こりうるのだ。</p>
@@ -754,6 +770,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
