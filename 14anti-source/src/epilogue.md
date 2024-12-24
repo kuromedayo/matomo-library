@@ -36,4 +36,5 @@
 
 　労働なき世界から、少年がタイムマシンに乗って俺に会いに来る日が訪れるのだろうか。もちろん、それは誰にもわからない。だが、わからないままでいい。少年はもう運命に縛られた奴隷ではない。自由なんだ。
 
-<img src="https://raw.githubusercontent.com/kuromedayo/matomo-library/refs/heads/main/images/14anti-epi.jpg">
+<img src="../image/14anti/epi.jpg">
+

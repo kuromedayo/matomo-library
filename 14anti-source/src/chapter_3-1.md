@@ -88,7 +88,7 @@
 
 「ふーん」
 
-<img src="https://raw.githubusercontent.com/kuromedayo/matomo-library/refs/heads/main/images/14anti-c3.jpg">
+<img src="../image/14anti/c3.jpg">
 
 　政治活動。なんともイメージの湧きにくい言葉だ。ニケにはやっぱりネーミングセンスがない。
 

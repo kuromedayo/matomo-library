@@ -40,7 +40,7 @@
 
 「『お金や労働がなくなった世界でもつくられるか』・・・か？」
 
-<img src="https://raw.githubusercontent.com/kuromedayo/matomo-library/refs/heads/main/images/14anti-c7.jpg">
+<img src="../image/14anti/c7.jpg">
 
 
 　相変わらずニケは心を見透かすようなことを言う。もういちいち驚くこともない。
