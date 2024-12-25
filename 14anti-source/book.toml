@@ -10,6 +10,7 @@ multilingual = true
 build-dir = "../14anti"
 
 [output.html]
+additional-css = ["assets/style.css"]
 additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js"]
 # site-url = "/example-book/"
 # git-repository-url = "https://github.com/kuromedayo/matomo-library"

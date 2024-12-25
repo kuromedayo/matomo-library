@@ -50,4 +50,14 @@
 
 [解説と参考文献](./Reference.md)
 [　労働の定義について](./roudou-teigi.md)
+[　人間の欲望について](./ningen-yokubou.md)
+[　貨幣権力説について](./kahei-kenryoku.md)
+[　ベーシックインカムについて](./basic-income.md)
+[　労働の無意味さについて](./roudou-muimi.md)
+[　規模の経済について](./kibo-keizai.md)
+[　テクノロジーと学歴について](./tech.md)
+[　貢献欲と血縁概念について](./kouken.md)
+[　力への意志と社畜心理について](./chikara.md)
+[　自由の帰結について](./jiyuu.md)
+[　人間の予見不可能性について](./ningen.md)
 
