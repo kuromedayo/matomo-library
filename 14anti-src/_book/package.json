@@ -1,0 +1,8 @@
+{
+    "devDependencies": {
+        "@dogatana/honkit-plugin-search-plus": "^1.0.1",
+        "gitbook-plugin-hide-published-with": "^0.0.1",
+        "honkit": "^6.0.2",
+        "honkit-plugin-toggle-chapters": "^0.0.1"
+    }
+}

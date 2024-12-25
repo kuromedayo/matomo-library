@@ -1,0 +1,18 @@
+{
+    "title": "14歳からのアンチワーク哲学",
+    "description": "アンチワーク哲学の入門書",
+    "author": "ホモ・ネーモ",
+    "publisher": "まとも書房",
+    "isbn": "978-4991353406",
+    "language": "ja",
+    
+    "plugins": [
+        "-lunr", "-search", "@dogatana/search-plus",
+        "hide-published-with",
+        "toggle-chapters"
+    ],
+
+    "pluginsConfig": {
+        "toggle-chapters":{}
+    }
+}
