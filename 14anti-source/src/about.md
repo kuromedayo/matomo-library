@@ -21,6 +21,8 @@
 <a href="https://www.youtube.com/channel/UCGVYl0sr85BIGMq-Izf5UBg" class="fa-brands fa-youtube" style="font-size:24px"></a>&nbsp;
 
 ## 関連リンク
-[Amazon ペーパーパック](https://www.amazon.co.jp/-/en/%E3%83%9B%E3%83%A2%E3%83%BB%E3%83%8D%E3%83%BC%E3%83%A2/dp/4991353408)<br>
-[Amazon kindle版](https://www.amazon.co.jp/-/en/%E3%83%9B%E3%83%A2%E3%83%BB%E3%83%8D%E3%83%BC%E3%83%A2-ebook/dp/B0DMV7TM5B)<br>
+[Amazon ペーパーパック](https://www.amazon.co.jp/-/en/%E3%83%9B%E3%83%A2%E3%83%BB%E3%83%8D%E3%83%BC%E3%83%A2/dp/4991353408)
+
+[Amazon kindle版](https://www.amazon.co.jp/-/en/%E3%83%9B%E3%83%A2%E3%83%BB%E3%83%8D%E3%83%BC%E3%83%A2-ebook/dp/B0DMV7TM5B)
+
 [全文無料公開中！『14歳からのアンチワーク哲学　なぜ僕らは働きたくないのか？』](https://note.com/kaduma/n/n1ed7230c3ac3)
