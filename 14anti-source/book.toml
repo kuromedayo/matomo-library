@@ -1,6 +1,7 @@
 [book]
 title = "14歳からのアンチワーク哲学"
-authors = ["kurome"]
+authors = ["ホモ・ネーモ"]
+description = "将来に悩む14歳の少年と、労働の廃絶が可能だと訴える50歳の高齢ニート(自称哲学者)による対話式小説。「労働とはなにか?」「人間とはなにか?」「理想的な社会とはなにか?」といった現代社会の根源を貫く常識を、鮮やかに暴き出し覆す問題作。"
 src = "src"
 language = "ja"
 multilingual = true
@@ -11,7 +12,7 @@ build-dir = "../14anti"
 [output.html]
 additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js"]
 # site-url = "/example-book/"
-git-repository-url = "https://github.com/kuromedayo/matomo-library"
+# git-repository-url = "https://github.com/kuromedayo/matomo-library"
 
 [output.html.fold]
 enable = true
