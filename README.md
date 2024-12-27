@@ -9,7 +9,7 @@ https://kuromedayo.github.io/matomo-library
 
 改善点などあればご指摘いただけると助かります。
 
-[[https://github.com/rust-lang/mdBook][mdBook]]を使ってhtmlを生成しています。
+[mdbook](https://github.com/rust-lang/mdBook)を使ってhtmlを生成しています。
 
 `sources`内の`"*-source"`を対象として`mdbook build`し、生成されたものををPagesにデプロイするようにGithub Actionsを設定しています。
 
