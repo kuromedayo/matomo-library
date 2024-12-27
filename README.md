@@ -1,6 +1,6 @@
 [![Hosted with GH Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/)
 [![Made with GH Actions](https://img.shields.io/badge/CI-GitHub_Actions-blue?logo=github-actions&logoColor=white)](https://github.com/features/actions)
-[![dependency - mdbook](https://img.shields.io/badge/dependency-mdbook-blue)](https://rust-lang.github.io/mdBook/)
+[![dependency - mdbook](https://img.shields.io/badge/dependency-mdbook-blue)](https://github.com/rust-lang/mdBook)
 # まともライブラリー
 https://kuromedayo.github.io/matomo-library
 
