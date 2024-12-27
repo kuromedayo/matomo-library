@@ -33,3 +33,5 @@
 [Amazon ペーパーパック](https://www.amazon.co.jp/-/en/%E3%83%9C%E3%83%96%E3%83%BB%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/4991353416)
 
 [全文無料公開中！ボブ・ブラック『労働廃絶論』（新訳版）&解説文](https://note.com/kaduma/n/ncd2c2882fe3a)
+
+[まともライブラリートップに戻る](https://kuromedayo.github.io/matomo-library/)

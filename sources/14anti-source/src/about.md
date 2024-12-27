@@ -29,4 +29,4 @@
 
 [全文無料公開中！『14歳からのアンチワーク哲学　なぜ僕らは働きたくないのか？』](https://note.com/kaduma/n/n1ed7230c3ac3)
 
-[まともライブラリートップに戻る](..)
+[まともライブラリートップに戻る](https://kuromedayo.github.io/matomo-library/)
