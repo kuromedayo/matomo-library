@@ -1,4 +1,4 @@
-<img src="../image/14anti/header.jpg">
+<img src="../../image/14anti/header.jpg">
 
 # このサイトについて
 
