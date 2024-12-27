@@ -7,8 +7,6 @@ https://kuromedayo.github.io/matomo-library
 
 まとも書房で出版された本の中で、著作権がフリーなものをweb上で公開しています。
 
-改善点などあればご指摘いただけると助かります。
-
 [mdbook](https://github.com/rust-lang/mdBook)を使ってhtmlを生成しています。
 
 `sources`内の`"*-source"`を対象として`mdbook build`し、生成されたものををPagesにデプロイするようにGithub Actionsを設定しています。
