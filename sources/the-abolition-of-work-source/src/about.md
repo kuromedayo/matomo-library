@@ -1,13 +1,15 @@
-<img src="../image/14anti/header.jpg">
-
 # このサイトについて
 
-このサイトでは、2024年に[まとも書房](https://matomo-shobo.com/)より出版された「14歳からのアンチワーク哲学」とその解説文をweb上で公開しています。
-
+このサイトでは、2024年に[まとも書房](https://matomo-shobo.com/)より出版された「労働廃絶論」をweb上で公開しています。
 
 <p xmlns:cc="http://creativecommons.org/ns#" >本文、イラスト、解説等、この本に関する著作権は、<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.ja" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt=""></a>によってすべて放棄されています。</p>
 
 ## 著者
+**ボブ・ブラック**
+
+1951年デトロイト生まれのアナキスト。1985年に発表した論文『労働廃絶論』はアナキストや思想家に多大な影響を与えた。
+
+## 翻訳・解説
 
 **ホモ・ネーモ(久保一真)**
 
@@ -20,13 +22,14 @@
 <a href="https://x.com/NEMO_YOKAISM" class="fa-brands fa-x-twitter" style="font-size:24px"></a>&nbsp;
 <a href="https://www.youtube.com/channel/UCGVYl0sr85BIGMq-Izf5UBg" class="fa-brands fa-youtube" style="font-size:24px"></a>&nbsp;
 
-イラスト A子
+監修 まとも書房翻訳チーム<br>
 
 ## 関連リンク
-[Amazon ペーパーパック](https://www.amazon.co.jp/-/en/%E3%83%9B%E3%83%A2%E3%83%BB%E3%83%8D%E3%83%BC%E3%83%A2/dp/4991353408)
 
-[Amazon kindle版](https://www.amazon.co.jp/-/en/%E3%83%9B%E3%83%A2%E3%83%BB%E3%83%8D%E3%83%BC%E3%83%A2-ebook/dp/B0DMV7TM5B)
+[労働廃絶論(原文)](https://theanarchistlibrary.org/library/bob-black-the-abolition-of-work)
 
-[全文無料公開中！『14歳からのアンチワーク哲学　なぜ僕らは働きたくないのか？』](https://note.com/kaduma/n/n1ed7230c3ac3)
+[Amazon kindle版](https://www.amazon.co.jp/-/en/%E3%83%9C%E3%83%96%E3%83%BB%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-ebook/dp/B0DPTPCRNM)
 
-[まともライブラリートップに戻る](..)
+[Amazon ペーパーパック](https://www.amazon.co.jp/-/en/%E3%83%9C%E3%83%96%E3%83%BB%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/4991353416)
+
+[全文無料公開中！ボブ・ブラック『労働廃絶論』（新訳版）&解説文](https://note.com/kaduma/n/ncd2c2882fe3a)

@@ -7,7 +7,7 @@ src = "src"
 language = "ja"
 
 [build]
-build-dir = "../../14anti"
+build-dir = "../../books/14anti"
 
 [output.html]
 additional-css = ["assets/style.css"]

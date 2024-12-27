@@ -1,15 +1,17 @@
 [book]
 title = "労働廃絶論"
-authors = ["Bob Black"]
+authors = ["Bob Black", "ホモ・ネーモ"]
 language = "ja"
-multilingual = false
+multilingual = true
 src = "src"
+description = "世界一誤解されているテキスト(?)であるボブ・ブラック『労働廃絶論』が分かりやすい現代語訳に! 理解を助ける解説文とセットで!難解な哲学書ではなく、労働のない新しい時代を切り開く希望の書!"
 
 [build]
-build-dir = "../../the-abolition-of-work"
+build-dir = "../../books/the-abolition-of-work"
 
 [output.html]
 additional-css = ["assets/style.css"]
+additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js"]
 
 [output.html.fold]
 enable = true
