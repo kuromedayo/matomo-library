@@ -1,0 +1,15 @@
+[book]
+title = "労働廃絶論"
+authors = ["Bob Black"]
+language = "ja"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "../../the-abolition-of-work"
+
+[output.html]
+additional-css = ["assets/style.css"]
+
+[output.html.fold]
+enable = true
