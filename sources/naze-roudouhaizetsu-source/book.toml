@@ -1,0 +1,16 @@
+[book]
+title = "なぜ労働廃絶は可能なのか？"
+authors = ["久保一真"]
+language = "ja"
+src = "src"
+description = "アンチワーク哲学論考集"
+
+[build]
+build-dir = "../../books/naze-roudouhaizetsu"
+
+[output.html]
+additional-css = ["assets/style.css"]
+additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js"]
+
+[output.html.fold]
+enable = true

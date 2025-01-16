@@ -1,0 +1,16 @@
+[book]
+title = "いいから黙って金刷って配れ"
+authors = ["久保一真"]
+language = "ja"
+src = "src"
+description = "ベーシックインカムについて深く掘り下げた一冊。"
+
+[build]
+build-dir = "../../books/iikara-damatte"
+
+[output.html]
+additional-css = ["assets/style.css"]
+additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js"]
+
+[output.html.fold]
+enable = true

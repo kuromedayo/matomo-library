@@ -1,0 +1,16 @@
+[book]
+title = ""
+authors = ["久保一真"]
+language = "ja"
+src = "src"
+description = ""
+
+[build]
+build-dir = "../../books/"
+
+[output.html]
+additional-css = ["assets/style.css"]
+additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js"]
+
+[output.html.fold]
+enable = true
